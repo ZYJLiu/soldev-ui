@@ -7,7 +7,7 @@ import { tomorrow } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import remarkGfm from 'remark-gfm';
 import { Children, createElement } from 'react';
 // import rehypeMermaid from 'rehype-mermaid';
-import mermaid from 'mermaid'
+import mermaid from 'mermaid';
 
 /*
   Define a component to render the react friendly markdown parser
@@ -117,7 +117,7 @@ const CodeBlock = ({ className = 'not-prose ', inline = false, children }) => {
 const getCode = (arr = []) =>
   arr
     .map((dt) => {
-      if (typeof dt === "string") {
+      if (typeof dt === `string`) {
         return dt;
       }
       if (dt.props && dt.props.children) {
@@ -126,6 +126,6 @@ const getCode = (arr = []) =>
       return false;
     })
     .filter(Boolean)
-    .join("");
+    .join(``);
 
 export default memo(ArticleContent);
