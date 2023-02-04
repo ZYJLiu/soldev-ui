@@ -126,6 +126,6 @@ const getCode = (arr = []) =>
       return false;
     })
     .filter(Boolean)
-    .join(``);
+    .join('');
 
 export default memo(ArticleContent);
