@@ -65,18 +65,19 @@ const CodeBlock = ({ className = 'not-prose ', inline = false, children }) => {
   };
 
   // parse and format "inline" CodeBlocks, (e.g. `single ticked`) or full code blocks (e.g. ``` )
-  if (inline) return <span className='inline-code'>{children}</span>;
+  if (inline) return <span className="inline-code">{children}</span>;
   else if (language === 'mermaid') {
     const code = getCode(children);
     const randomid = () => parseInt(String(Math.random() * 1e15), 10).toString(36);
+    const id = randomid()
     return (
       <code>
         <div
-          id={randomid()}
+          id={`dome${id}`}
           style={{ display: 'none' }}
         />
         <div
-          dangerouslySetInnerHTML={{ __html: mermaid.render(id, code, () => null) }}
+          dangerouslySetInnerHTML={{ __html: mermaid.render(`dome${id}`, code, () => null) }}
         />
       </code>
     );
@@ -126,6 +127,6 @@ const getCode = (arr = []) =>
       return false;
     })
     .filter(Boolean)
-    .join('');
+    .join(``);
 
 export default memo(ArticleContent);
