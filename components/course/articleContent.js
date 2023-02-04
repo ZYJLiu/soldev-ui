@@ -69,7 +69,7 @@ const CodeBlock = ({ className = 'not-prose ', inline = false, children }) => {
   else if (language === 'mermaid') {
     const code = getCode(children);
     const randomid = () => parseInt(String(Math.random() * 1e15), 10).toString(36);
-    const id = randomid()
+    const id = randomid();
     return (
       <code>
         <div
@@ -127,6 +127,6 @@ const getCode = (arr = []) =>
       return false;
     })
     .filter(Boolean)
-    .join(``);
+    .join('');
 
 export default memo(ArticleContent);
