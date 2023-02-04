@@ -73,7 +73,7 @@ const CodeBlock = ({ className = 'not-prose ', inline = false, children }) => {
       <code>
         <div
           id={`dome${randomid()}`}
-          style={{ display: "none" }}
+          style={{ display: `none` }}
         />
         <div
           dangerouslySetInnerHTML={{ __html: mermaid.render(`dome${randomid()}`, code, () => null) }}
