@@ -6,7 +6,8 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { tomorrow } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import remarkGfm from 'remark-gfm';
 import { Children, createElement } from 'react';
-import rehypeMermaid from 'rehype-mermaid';
+// import rehypeMermaid from 'rehype-mermaid';
+import mermaid from 'mermaid'
 
 /*
   Define a component to render the react friendly markdown parser
@@ -15,7 +16,7 @@ function ArticleContent({ markdown = null, className = '' }) {
   return (
     <article className={className}>
       <ReactMarkdown
-        rehypePlugins={[remarkGfm, rehypeMermaid]}
+        rehypePlugins={[remarkGfm]}
         components={{
           h2: HeadingRenderer,
           code: CodeBlock
@@ -48,7 +49,6 @@ const CodeBlock = ({ className = 'not-prose ', inline = false, children }) => {
     for (let i = 0; i < children.length; i++) {
       children[i] = children[i].trim();
     }
-    // children[children.length - 1] = children[children.length - 1].trim();
   } else if (typeof children === 'string') children = children.trim();
 
   // compute the `language`
@@ -66,7 +66,21 @@ const CodeBlock = ({ className = 'not-prose ', inline = false, children }) => {
 
   // parse and format "inline" CodeBlocks, (e.g. `single ticked`) or full code blocks (e.g. ``` )
   if (inline) return <span className="inline-code">{children}</span>;
-  else
+  else if (language === 'mermaid') {
+    const code = getCode(children);
+    const randomid = () => parseInt(String(Math.random() * 1e15), 10).toString(36);
+    return (
+      <code>
+        <div
+          id={`dome${randomid()}`}
+          style={{ display: "none" }}
+        />
+        <div
+          dangerouslySetInnerHTML={{ __html: mermaid.render(`dome${randomid()}`, code, () => null) }}
+        />
+      </code>
+    );
+  } else
     return (
       <div>
         <div className="flex justify-end">
@@ -99,5 +113,19 @@ const CodeBlock = ({ className = 'not-prose ', inline = false, children }) => {
       </div>
     );
 };
+
+const getCode = (arr = []) =>
+  arr
+    .map((dt) => {
+      if (typeof dt === "string") {
+        return dt;
+      }
+      if (dt.props && dt.props.children) {
+        return getCode(dt.props.children);
+      }
+      return false;
+    })
+    .filter(Boolean)
+    .join("");
 
 export default memo(ArticleContent);
