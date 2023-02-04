@@ -435,9 +435,9 @@
     "js-tokens" "^4.0.0"
 
 "@babel/parser@^7.1.0", "@babel/parser@^7.12.3", "@babel/parser@^7.13.16", "@babel/parser@^7.14.0", "@babel/parser@^7.14.7", "@babel/parser@^7.20.0", "@babel/parser@^7.20.13", "@babel/parser@^7.20.7", "@babel/parser@^7.7.0":
-  "integrity" "sha512-gFDLKMfpiXCsjt4za2JA9oTMn70CeseCehb11kRZgvd7+F67Hih3OHOK24cRrWECJ/ljfPGac6ygXAs/C8kIvw=="
-  "resolved" "https://registry.npmjs.org/@babel/parser/-/parser-7.20.13.tgz"
-  "version" "7.20.13"
+  "integrity" "sha512-DI4a1oZuf8wC+oAJA9RW6ga3Zbe8RZFt7kD9i4qAspz3I/yHet1VvC3DiSy/fsUvv5pvJuNPh0LPOdCcqinDPg=="
+  "resolved" "https://registry.npmjs.org/@babel/parser/-/parser-7.20.15.tgz"
+  "version" "7.20.15"
 
 "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@^7.18.6":
   "integrity" "sha512-Dgxsyg54Fx1d4Nge8UnvTrED63vrwOdPmyvPzlNN/boaliRP54pm3pGzZD1SJUwrBA+Cs/xdG8kXX6Mn/RfISQ=="
@@ -781,9 +781,9 @@
     "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-transform-block-scoping@^7.0.0", "@babel/plugin-transform-block-scoping@^7.20.2":
-  "integrity" "sha512-sMPepQtsOs5fM1bwNvuJJHvaCfOEQfmc01FGw0ELlTpTJj5Ql/zuNRRldYhAPys4ghXdBIQJbRVYi44/7QflQQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.20.14.tgz"
-  "version" "7.20.14"
+  "integrity" "sha512-Vv4DMZ6MiNOhu/LdaZsT/bsLRxgL94d269Mv4R/9sp6+Mp++X/JqypZYypJXLlM4mlL352/Egzbzr98iABH1CA=="
+  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.20.15.tgz"
+  "version" "7.20.15"
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
 
@@ -2312,15 +2312,15 @@
   "resolved" "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz"
   "version" "1.2.0"
 
-"@sentry/browser@7.35.0":
-  "integrity" "sha512-2uoBNVsO26aa+Ln9h0K2MklDg6OAt4S0upZcYF9EoPf3ryUNmv0GCX8MG0kQ7+WQfO/jrlKv9zJggyYWGutSZQ=="
-  "resolved" "https://registry.npmjs.org/@sentry/browser/-/browser-7.35.0.tgz"
-  "version" "7.35.0"
+"@sentry/browser@7.36.0":
+  "integrity" "sha512-Mu0OpisCZFICBGxVXdHWjUDgSvuQKjnO9acNcXR1+68IU08iX+cU6f2kq6VzI4mW/pNieI20FDFbx9KA0YZ4+A=="
+  "resolved" "https://registry.npmjs.org/@sentry/browser/-/browser-7.36.0.tgz"
+  "version" "7.36.0"
   dependencies:
-    "@sentry/core" "7.35.0"
-    "@sentry/replay" "7.35.0"
-    "@sentry/types" "7.35.0"
-    "@sentry/utils" "7.35.0"
+    "@sentry/core" "7.36.0"
+    "@sentry/replay" "7.36.0"
+    "@sentry/types" "7.36.0"
+    "@sentry/utils" "7.36.0"
     "tslib" "^1.9.3"
 
 "@sentry/cli@^1.74.6":
@@ -2336,97 +2336,97 @@
     "proxy-from-env" "^1.1.0"
     "which" "^2.0.2"
 
-"@sentry/core@7.35.0":
-  "integrity" "sha512-j+UJaWDUyLCWOTKMrDFivy/rH5QuSvPK9TsOmYOIFctSKfp+e9Ap0cPRPXNObwim2YTpN4wpl7TqDGDANTKhuQ=="
-  "resolved" "https://registry.npmjs.org/@sentry/core/-/core-7.35.0.tgz"
-  "version" "7.35.0"
+"@sentry/core@7.36.0":
+  "integrity" "sha512-lq1MlcMhvm7QIwUOknFeufkg4M6QREY3s61y6pm1o+o3vSqB7Hz0D19xlyEpP62qMn8OyuttVKOVK1UfGc2EyQ=="
+  "resolved" "https://registry.npmjs.org/@sentry/core/-/core-7.36.0.tgz"
+  "version" "7.36.0"
   dependencies:
-    "@sentry/types" "7.35.0"
-    "@sentry/utils" "7.35.0"
+    "@sentry/types" "7.36.0"
+    "@sentry/utils" "7.36.0"
     "tslib" "^1.9.3"
 
-"@sentry/integrations@7.35.0":
-  "integrity" "sha512-AIHAAkoxUrJC576KpjK1M35lHksRlqwczQhbsuEheb4A+SPlMNXz/P2R08gzENIgcYoImL5EuKpkxvbqQtcIRw=="
-  "resolved" "https://registry.npmjs.org/@sentry/integrations/-/integrations-7.35.0.tgz"
-  "version" "7.35.0"
+"@sentry/integrations@7.36.0":
+  "integrity" "sha512-wrRoUqdeGi64NNimGVk8U8DBiXamxTYPBux0/faFDyau8EJyQFcv8zOyB78Za4W2Ss3ZXNaE/WtFF8UxalHzBQ=="
+  "resolved" "https://registry.npmjs.org/@sentry/integrations/-/integrations-7.36.0.tgz"
+  "version" "7.36.0"
   dependencies:
-    "@sentry/types" "7.35.0"
-    "@sentry/utils" "7.35.0"
+    "@sentry/types" "7.36.0"
+    "@sentry/utils" "7.36.0"
     "localforage" "^1.8.1"
     "tslib" "^1.9.3"
 
 "@sentry/nextjs@^7.33.0":
-  "integrity" "sha512-MtDwn7jfmVjnOpNO6MKEYWSxPDWs2xGrnj0qwjYtIOs+jrxLJ7dwnjZCbg5gx6/m2V0lZUqglDWUyqbh1xMFWA=="
-  "resolved" "https://registry.npmjs.org/@sentry/nextjs/-/nextjs-7.35.0.tgz"
-  "version" "7.35.0"
+  "integrity" "sha512-7IUwBjCjo3rWuvEG16D1wKb0D+aMyCU920VGCAQVZaqTZAgrgAKfpTa1Sk0fmDxYglW1EBI9QM+WEnOa9RleLw=="
+  "resolved" "https://registry.npmjs.org/@sentry/nextjs/-/nextjs-7.36.0.tgz"
+  "version" "7.36.0"
   dependencies:
     "@rollup/plugin-commonjs" "24.0.0"
-    "@sentry/core" "7.35.0"
-    "@sentry/integrations" "7.35.0"
-    "@sentry/node" "7.35.0"
-    "@sentry/react" "7.35.0"
-    "@sentry/tracing" "7.35.0"
-    "@sentry/types" "7.35.0"
-    "@sentry/utils" "7.35.0"
+    "@sentry/core" "7.36.0"
+    "@sentry/integrations" "7.36.0"
+    "@sentry/node" "7.36.0"
+    "@sentry/react" "7.36.0"
+    "@sentry/tracing" "7.36.0"
+    "@sentry/types" "7.36.0"
+    "@sentry/utils" "7.36.0"
     "@sentry/webpack-plugin" "1.20.0"
     "chalk" "3.0.0"
     "rollup" "2.78.0"
     "tslib" "^1.9.3"
 
-"@sentry/node@7.35.0":
-  "integrity" "sha512-uenomjlwSk1zX4gyNV6DdJFQXgDzzdLUcTCFWoO2D3sDqCGiJO6fmRXX+kVVanYcRXfKg14ko5uelfCj6pq9BQ=="
-  "resolved" "https://registry.npmjs.org/@sentry/node/-/node-7.35.0.tgz"
-  "version" "7.35.0"
+"@sentry/node@7.36.0":
+  "integrity" "sha512-nAHAY+Rbn5OlTpNX/i6wYrmw3hT/BtwPZ/vNU52cKgw7CpeE1UrCeFjnPn18rQPB7lIh7x0vNvoaPrfemRzpSQ=="
+  "resolved" "https://registry.npmjs.org/@sentry/node/-/node-7.36.0.tgz"
+  "version" "7.36.0"
   dependencies:
-    "@sentry/core" "7.35.0"
-    "@sentry/types" "7.35.0"
-    "@sentry/utils" "7.35.0"
+    "@sentry/core" "7.36.0"
+    "@sentry/types" "7.36.0"
+    "@sentry/utils" "7.36.0"
     "cookie" "^0.4.1"
     "https-proxy-agent" "^5.0.0"
     "lru_map" "^0.3.3"
     "tslib" "^1.9.3"
 
-"@sentry/react@7.35.0":
-  "integrity" "sha512-iyLCc1ahiccuiH5/GtkymSiYLDZxPZuvx3sAMf0lKBPyzJL2LONj8fxoDKjQrymPe3rtiIFRUtJ0CyHgJy8m/w=="
-  "resolved" "https://registry.npmjs.org/@sentry/react/-/react-7.35.0.tgz"
-  "version" "7.35.0"
+"@sentry/react@7.36.0":
+  "integrity" "sha512-ttrRqbgeqvkV3DwkDRZC/V8OEnBKGpQf4dKpG8oMlfdVbMTINzrxYUgkhi9xAkxkH9O+vj3Md8L3Rdqw/SDwKQ=="
+  "resolved" "https://registry.npmjs.org/@sentry/react/-/react-7.36.0.tgz"
+  "version" "7.36.0"
   dependencies:
-    "@sentry/browser" "7.35.0"
-    "@sentry/types" "7.35.0"
-    "@sentry/utils" "7.35.0"
+    "@sentry/browser" "7.36.0"
+    "@sentry/types" "7.36.0"
+    "@sentry/utils" "7.36.0"
     "hoist-non-react-statics" "^3.3.2"
     "tslib" "^1.9.3"
 
-"@sentry/replay@7.35.0":
-  "integrity" "sha512-msD76vT4yc5JvxcCVk21YkH8BP9unJ6xRmtCyaCHi7bDsfdu7RcQD+jIAOyS0534uHQLn6BZ2wAW8O4mpTk+7g=="
-  "resolved" "https://registry.npmjs.org/@sentry/replay/-/replay-7.35.0.tgz"
-  "version" "7.35.0"
+"@sentry/replay@7.36.0":
+  "integrity" "sha512-wNbME74/2GtkqdDXz7NaStyfPWVLjYmN9TFWvu6E9sNl9pkDDvii/Qc8F6ps1wa7bozkKcWRHgNvYiGCxUBHcg=="
+  "resolved" "https://registry.npmjs.org/@sentry/replay/-/replay-7.36.0.tgz"
+  "version" "7.36.0"
   dependencies:
-    "@sentry/core" "7.35.0"
-    "@sentry/types" "7.35.0"
-    "@sentry/utils" "7.35.0"
+    "@sentry/core" "7.36.0"
+    "@sentry/types" "7.36.0"
+    "@sentry/utils" "7.36.0"
 
-"@sentry/tracing@7.35.0":
-  "integrity" "sha512-+mXydQjsoX1Lyjil1IR51hVKsm6vYYCYaKZXo/BzUsjKS0INK1GsfanqHzu2So9bBS5dPLo78lq5YuFsIsAAkw=="
-  "resolved" "https://registry.npmjs.org/@sentry/tracing/-/tracing-7.35.0.tgz"
-  "version" "7.35.0"
+"@sentry/tracing@7.36.0":
+  "integrity" "sha512-5R5mfWMDncOcTMmmyYMjgus1vZJzIFw4LHaSbrX7e1IRNT/6vFyNeVxATa2ePXb9mI3XHo5f2p7YrnreAtaSXw=="
+  "resolved" "https://registry.npmjs.org/@sentry/tracing/-/tracing-7.36.0.tgz"
+  "version" "7.36.0"
   dependencies:
-    "@sentry/core" "7.35.0"
-    "@sentry/types" "7.35.0"
-    "@sentry/utils" "7.35.0"
+    "@sentry/core" "7.36.0"
+    "@sentry/types" "7.36.0"
+    "@sentry/utils" "7.36.0"
     "tslib" "^1.9.3"
 
-"@sentry/types@^7.x", "@sentry/types@7.35.0":
-  "integrity" "sha512-gy1PhwYvER/F80N+ZI06PjMk55xAZ4P+r3jomsMnOXQBWzx2VEEpc2fS/3B21wymxSl+mjh+5sUlk/JpxxOQvQ=="
-  "resolved" "https://registry.npmjs.org/@sentry/types/-/types-7.35.0.tgz"
-  "version" "7.35.0"
+"@sentry/types@^7.x", "@sentry/types@7.36.0":
+  "integrity" "sha512-uvfwUn3okAWSZ948D/xqBrkc3Sn6TeHUgi3+p/dTTNGAXXskzavgfgQ4rSW7f3YD4LL+boZojpoIARVLodMGuA=="
+  "resolved" "https://registry.npmjs.org/@sentry/types/-/types-7.36.0.tgz"
+  "version" "7.36.0"
 
-"@sentry/utils@7.35.0":
-  "integrity" "sha512-xB/uVNXrfSwQj5fZsYOHr70ORq9qNT+9FAoUGffAQUyVjRhXG27KxsstK1Rv2yt+FBCHY06e3vE4K9B4zwSe7Q=="
-  "resolved" "https://registry.npmjs.org/@sentry/utils/-/utils-7.35.0.tgz"
-  "version" "7.35.0"
+"@sentry/utils@7.36.0":
+  "integrity" "sha512-mgDi5X5Bm0sydCzXpnyKD/sD98yc2qnKXyRdNX4HRRwruhC/P53LT0hGhZXsyqsB/l8OAMl0zWXJLg0xONQsEw=="
+  "resolved" "https://registry.npmjs.org/@sentry/utils/-/utils-7.36.0.tgz"
+  "version" "7.36.0"
   dependencies:
-    "@sentry/types" "7.35.0"
+    "@sentry/types" "7.36.0"
     "tslib" "^1.9.3"
 
 "@sentry/webpack-plugin@1.20.0":
@@ -15769,9 +15769,9 @@
     "jsesc" "~0.5.0"
 
 "rehype-mermaid@^0.1.0":
-  "integrity" "sha512-Lb8Ae8RzHkF9uviq0r0FyYiUjogWNJuHM4oCgZ0yOZYO3olZsvaaM+Y5ON091I0bljhJmEMaj77XG1jsxahYuw=="
-  "resolved" "https://registry.npmjs.org/rehype-mermaid/-/rehype-mermaid-0.1.0.tgz"
-  "version" "0.1.0"
+  "integrity" "sha512-ILAcHKvdsAVACergevIr/NH/w4WVXO2En++sylMUuhpFNpEihKwB17rBNi2YSAsscve1F8nx/bi2wn8Eb7ZMbg=="
+  "resolved" "https://registry.npmjs.org/rehype-mermaid/-/rehype-mermaid-0.1.5.tgz"
+  "version" "0.1.5"
   dependencies:
     "@testing-library/jest-dom" "^5.11.4"
     "@testing-library/react" "^11.1.0"
@@ -17501,9 +17501,9 @@
     "source-map-support" "~0.5.12"
 
 "terser@^5.15.0", "terser@^5.3.4":
-  "integrity" "sha512-JKuM+KvvWVqT7muHVyrwv7FVRPnmHDwF6XwoIxdbF5Witi0vu99RYpxDexpJndXt3jbZZmmWr2/mQa6HvSNdSg=="
-  "resolved" "https://registry.npmjs.org/terser/-/terser-5.16.2.tgz"
-  "version" "5.16.2"
+  "integrity" "sha512-v8wWLaS/xt3nE9dgKEWhNUFP6q4kngO5B8eYFUuebsu7Dw/UNAnpUod6UHo04jSSkv8TzKHjZDSd7EXdDQAl8Q=="
+  "resolved" "https://registry.npmjs.org/terser/-/terser-5.16.3.tgz"
+  "version" "5.16.3"
   dependencies:
     "@jridgewell/source-map" "^0.3.2"
     "acorn" "^8.5.0"

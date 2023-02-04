@@ -15,7 +15,7 @@ export async function getStaticPaths() {
   const filteredContent = items.filter(item => item.metadata.title && item.metadata.simd);
 
   const paths = filteredContent.map(item => ({
-    params: { slug: item?.metadata?.simd +"-"+ item?.metadata?.title.toLowerCase().replace(/\s+/g, '-')}
+    params: { slug: item?.metadata?.simd +'-'+ item?.metadata?.title.toLowerCase().replace(/\s+/g, '-')}
   }));
 
   return { paths, fallback: false };
@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const res = await fetchAllSIMD();
-  const content = res.find(item => item.metadata.simd && item?.metadata?.simd +"-"+ item?.metadata?.title.toLowerCase().replace(/\s+/g, '-') === params.slug);
+  const content = res.find(item => item.metadata.simd && item?.metadata?.simd +'-'+ item?.metadata?.title.toLowerCase().replace(/\s+/g, '-') === params.slug);
 
   // fetching markdown and getting rid of document metadata
   content.markdown = await fetchRaw(content.download_url[0]).then(res =>
